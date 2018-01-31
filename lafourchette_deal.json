@@ -1,0 +1,9 @@
+//recuperer avec l'api autocomplete
+{"discountAmount":20,
+"exclusions":"Conditions : Hors menu, hors boisson. Pour des tables de 5 personnes maximum. Valable pour le créneau horaire réservé.",
+"idSaleType":2150541,
+"isBrunch":"false",
+"isEvent":"false",
+"isMenu":"false",
+"isSpecialOffer":"true",
+"title":"-20% sur la carte"}
