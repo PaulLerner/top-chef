@@ -25,7 +25,14 @@
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Meta
+In order to run this app :
+- clone the repo then run "npm install". (you should have node.js installed obviously)
+- go in top-chef/top-chef
+- run "npm start"
+- open your browser and go to "http://localhost:3000/"
 
+If you want to re-scrape everything run "node server.js".
 ## Introduction
 
 Each year, Michelin publish the Michelin Red Guide which awards Michelin stars to some restaurants.
