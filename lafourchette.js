@@ -59,12 +59,15 @@ function Store()
 {
 	console.log(restaurants);
 	var json_resto = JSON.stringify(restaurants);
-	fs.writeFile('restaurants.json', json_resto, 'utf8', (err) => {
+	fs.writeFile('./top-chef/src/lafourchette.json', json_resto, 'utf8', (err) => {
 	  if (err) throw err;
 
 	});
 }
-GetMichelin('./michelin.json');
+GetMichelin('./top-chef/src/michelin.json');
 setTimeout(GetId, 1000);
 //setTimeout(GetDeal,30000);
 setTimeout(Store,30000);
+module.exports.GetMichelin = GetMichelin;
+module.exports.GetId = GetId;
+module.exports.Store = Store;

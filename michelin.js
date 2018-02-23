@@ -69,12 +69,12 @@ function Store()
 
 	});
 }
-/*
+
 NumberOfPages();
 setTimeout(Scrape, 5000);//time out because Node JS is asynchronous and we have to get the number of pages
 setTimeout(Store,30000);//we have to scrape all of the restaurant titles
 
-*/
+
 module.exports.NumberOfPages = NumberOfPages;
 
 module.exports.Scrape = Scrape;

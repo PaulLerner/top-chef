@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import data from './michelin.json';
+import data from './lafourchette.json';
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <ul>
         {
           data.map(function(restaurant){
-            return <li>{restaurant}</li>;
+            return <li>{restaurant.name} : {restaurant.deal}</li>;
           })
         }
         </ul>
